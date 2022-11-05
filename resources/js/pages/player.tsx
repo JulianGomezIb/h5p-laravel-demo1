@@ -19,8 +19,8 @@ export const page = () => {
                 .then((res) => res.json())
                 .then((data) => {
                     console.log(data.data);
-                    var h5p = setSettings(data.data);
-                    console.log(h5p)
+                    console.log(settings);
+                    setSettings(data.data);
                     setLoading(false);
                 });
         }
