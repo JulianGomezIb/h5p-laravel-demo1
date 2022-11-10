@@ -160,10 +160,7 @@ export const contentSettings = (
         method: "GET",
     });
     console.log(h5p);
-
-
     return h5p
-
 };
 
 export const updateContent = (data: H5PEditorContent, id?: string | number) => {
